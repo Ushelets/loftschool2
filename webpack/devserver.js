@@ -1,3 +1,8 @@
-/**
- * Created by Andrey on 28.06.2017.
- */
+module.exports = function () {
+    return {
+        devServer: {
+            stats: 'errors-only',
+            port: 9000
+        }
+    }
+};
